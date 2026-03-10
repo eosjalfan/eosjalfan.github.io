@@ -4,22 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>My First Website</title>
+<title>eos_jalfan</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-.hero {
-  background:url("https://picsum.photos/1600/700") center/cover;
-  height:70vh;
-  display:flex;
-  align-items:center;
-  color:white;
-  text-align:center;
+.hero{
+background:url("https://picsum.photos/1600/700") center/cover;
+height:70vh;
+display:flex;
+align-items:center;
+color:white;
+text-align:center;
 }
+
 .hero h1{
-  font-size:3rem;
-  font-weight:bold;
+font-size:3rem;
+font-weight:bold;
 }
 </style>
 </head>
@@ -29,6 +30,7 @@
 <!-- ヘッダー -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
+
 <a class="navbar-brand" href="#">eos_jalfan</a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -37,53 +39,77 @@
 
 <div class="collapse navbar-collapse" id="menu">
 <ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#">My Gears</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+
+<li class="nav-item">
+<a class="nav-link" href="#home">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#gears">My Gears</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contacts</a>
+</li>
+
 </ul>
 </div>
 </div>
 </nav>
 
-<!-- メイン画像 -->
-<section class="hero">
+<!-- Home -->
+<section id="home" class="hero">
 <div class="container">
-<h1>Welcome to My Website</h1>
-<p>はじめて作ったBootstrapサイト</p>
-<a href="#" class="btn btn-primary btn-lg mt-3">Contacts</a>
+<h1>Welcome to eos_jalfan</h1>
+<p>My camera & photography site</p>
 </div>
 </section>
 
-<!-- Gears -->
-<section class="py-5">
+<!-- My Gears -->
+<section id="gears" class="py-5">
 <div class="container text-center">
+
 <h2 class="mb-4">My Gears</h2>
 
 <div class="row">
+
 <div class="col-md-4">
-<h4>Web制作</h4>
-<p>eosjalfan。</p>
+<h4>Camera</h4>
+<p>Canon EOS series</p>
 </div>
 
 <div class="col-md-4">
-<h4>デザイン</h4>
-<p>シンプルで見やすいデザイン。</p>
+<h4>Lens</h4>
+<p>Favorite lenses for photography</p>
 </div>
 
 <div class="col-md-4">
-<h4>サポート</h4>
-<p>初心者でも安心のサポート。</p>
+<h4>Accessories</h4>
+<p>Tripod, bag, and gear</p>
+</div>
+
 </div>
 </div>
+</section>
+
+<!-- Contacts -->
+<section id="contact" class="py-5 bg-light">
+<div class="container text-center">
+
+<h2 class="mb-4">Contacts</h2>
+<p>Contact me here</p>
+
+<a class="btn btn-primary" href="#">Send Message</a>
 
 </div>
 </section>
 
 <!-- フッター -->
 <footer class="bg-dark text-white text-center py-3">
-© 2026 MySite
+© 2026 eos_jalfan
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
